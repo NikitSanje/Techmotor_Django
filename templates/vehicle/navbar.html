@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Autofix - Auto Maintenance & Repair Service</title>
+  <meta name="title" content="Autofix - Auto Maintenance & Repair Service">
+  <meta name="description" content="This is a vehicle repair html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - material icon font
+  -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="{% static "images/style1.css"%}">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" {% static "images/hero-banner.png"%}">
+  <link rel="preload" as="image" href="{% static "images/hero-bg2.jpg"%}">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="{% static "images/logo.png"%}" width="328" height="203" >
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/" class="navbar-link">Home</a>
+          </li>
+	   <li>
+            <a href="/customerclick" class="navbar-link">Customer</a>
+          </li>
+
+          <li>
+            <a href="/mechanicsclick" class="navbar-link">Mechanics</a>
+          </li>
+
+          <li>
+            <a href="/adminclick" class="navbar-link">Admin</a>
+          </li>
+
+
+          <li>
+            <a href="/aboutus" class="nav-item navbar-link">About</a>
+          </li>
+	  
+  	  <li>
+            <a href="contactus" class="nav-item navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="#" class="btn btn-primary">
+        <span class="span">Get a Quote</span>
+
+        <span class="material-symbols-rounded">arrow_forward</span>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="nav-toggle-icon icon-1"></span>
+        <span class="nav-toggle-icon icon-2"></span>
+        <span class="nav-toggle-icon icon-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero has-bg-image" aria-label="home" style="background-image: url('{% static "images/hero-bg2.jpg"%}')">
+        <div class="container">
+
+         
+
+          
+        </div>
+      </section>
+
+
+
+
+
+       	
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="{% static "images/script.js"%}"></script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Autofix - Auto Maintenance & Repair Service</title>
+  <meta name="title" content="Autofix - Auto Maintenance & Repair Service">
+  <meta name="description" content="This is a vehicle repair html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - material icon font
+  -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="328" height="203" alt="autofix home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/" class="navbar-link">Home</a>
+          </li>
+	   <li>
+            <a href="/customerclick" class="navbar-link">Customer</a>
+          </li>
+
+          <li>
+            <a href="/mechanicsclick" class="navbar-link">Mechanics</a>
+          </li>
+
+          <li>
+            <a href="/adminclick" class="navbar-link">Admin</a>
+          </li>
+
+
+          <li>
+            <a href="/aboutus" class="nav-item navbar-link">About</a>
+          </li>
+	  
+  	  <li>
+            <a href="contactus" class="nav-item navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="customerlogin" class="btn btn-primary">
+        <span class="span">Login</span>
+
+        <span class="material-symbols-rounded">arrow_forward</span>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="nav-toggle-icon icon-1"></span>
+        <span class="nav-toggle-icon icon-2"></span>
+        <span class="nav-toggle-icon icon-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero has-bg-image" aria-label="home" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+         
+
+          
+        </div>
+      </section>
+
+
+
+
+
+       	
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
